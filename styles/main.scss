@@ -1,0 +1,34 @@
+@import "./vendor/normalize";
+@import "./partials/colors";
+@import "./partials/mixins";
+
+nav {
+    background-color: $primary-color;
+    ul {
+        padding: 10px;
+        li {
+            font-size: 12px;
+        }
+    }
+}
+
+h1 {
+    color: red;
+    font-family: ;
+}
+
+@media (min-width: 1024px) {
+    
+    h1 {
+        color: blue;
+    }
+}
+
+
+.btn {
+  @include green-button(12px, green);
+}
+
+.green-btn {
+    @include green-button(20px, red);
+}

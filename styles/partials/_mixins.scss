@@ -1,0 +1,10 @@
+@mixin green-button ($size, $color) {
+    border-radius: 7px;
+    font-size: $size;
+    background-color: $color;
+    &:hover {
+        background-color: darken($color: $primary-color, $amount: 15%);
+        cursor: pointer;
+    }
+}
+
