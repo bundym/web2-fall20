@@ -1,6 +1,7 @@
 @import "./vendor/normalize";
 @import "./partials/colors";
 @import "./partials/mixins";
+@import "./partials/typography";
 
 nav {
     background-color: $primary-color;
@@ -8,13 +9,14 @@ nav {
         padding: 10px;
         li {
             font-size: 12px;
+            font-family: $secondary-fonts;
         }
     }
 }
 
 h1 {
     color: red;
-    font-family: ;
+    font-family: $primary-fonts;
 }
 
 @media (min-width: 1024px) {
